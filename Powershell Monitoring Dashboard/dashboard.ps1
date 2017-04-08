@@ -15,7 +15,7 @@ $head = (Get-Content .\head.html) -replace '%4',(get-date).DateTime
 $tail = Get-Content .\tail.html
 
 
-$servers =@( 'DC', 'MS', 'client')
+$servers =@( 'name', 'name', 'name')
 foreach( $i in $servers)
 {
  If (Test-Connection -BufferSize 32 -Count 1 -ComputerName $i -ErrorAction SilentlyContinue -Quiet) {

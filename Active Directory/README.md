@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+## PowerShell Scripts
 
-You can use the [editor on GitHub](https://github.com/KyleStroh/PowerShell-Scripts/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+These are some PowerShell Active Directory scripts I have made and have found useful.
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Changes need for the scripts to be used.
 
-- Bulleted
-- List
+All of the scripts in the function folder use csv files to make it easier/ speed up the process. 
 
-1. Numbered
-2. List
+Where ever the code scripts says the words  `entername` or `local` or `fillinwithpassword` you need to supply your proper information in those spots.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KyleStroh/PowerShell-Scripts/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+All of these scripts were written on a VM environment running Microsoft Server 2012 R2

@@ -11,6 +11,6 @@ Before you run the you need to change `$servers =@( 'name', 'name', 'name')` to 
 or you can point it to a text file.
 ```
 
-* Large shout out to Stephen over at [foxdeploy](https://foxdeploy.com/author/1redone/) this is something I have been wanting to do for a while now.
+* Large shout out to Stephen over at [foxdeploy](https://foxdeploy.com/author/1redone/) this is something I have been wanting to try out myself.
 * I used his code of how PowerShell populates the html (kudos and making it very simple) you can find it [here](https://foxdeploy.com/2016/04/11/building-better-powershell-dashboards/)
 * I will note Stephen's version is much simpler than mine due to the powerful Hyper-V Get-VM command he is able to use.

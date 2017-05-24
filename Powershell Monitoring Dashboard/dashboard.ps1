@@ -48,7 +48,7 @@ foreach( $i in $servers)
     $index++
     
     
-    #choose which style (which affect the color of the card generated)
+    #choosing styles
     if ($Status -eq 'Ofline'){
         $style = 'style1'
         }
